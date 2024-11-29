@@ -9,3 +9,7 @@ docker build -t watchstoremanagement .
 - To ruin container:
 
 docker run -d -p 8080:8080 --name watchstoremanagement-container watchstoremanagement
+
+- Then you can go to url home page:
+
+http://localhost:8080/WatchStoreManagement
